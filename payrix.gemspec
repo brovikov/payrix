@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.files         = Dir['lib/**/*.rb']
   spec.require_paths = ["lib"]
 
-  spec.add_runtime_dependency "faraday", ">= 0.8, < 2.0"
+  spec.add_runtime_dependency "faraday", ">= 0.8", "< 2.0"
   spec.add_runtime_dependency "faraday_middleware", "~> 0.13"
   spec.add_development_dependency "bundler", "~> 1.16"
   spec.add_development_dependency "rake", "~> 10.0"
